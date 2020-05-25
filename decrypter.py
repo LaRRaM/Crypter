@@ -18,7 +18,10 @@ def read_and_decrypt(path, key):
 	with open(path2, 'a+') as file:
 		for i in decrypt:
 			file.write(i);
+def main():
+	key = input('[ KEY ] >>> ');
+	path = input('[ FILE ] >>> ');
+	read_and_decrypt('../TEST/lorem.txt.crypt', key);
 
-key = input('[ KEY ] >>> ');
-path = input('[ FILE ] >>> ');
-read_and_decrypt('../TEST/lorem.txt.crypt', key);
+if __name__ == '__main__':
+	main();
