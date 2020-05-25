@@ -29,8 +29,5 @@ def main():
 	else:
 		print('Ok, bye!');
 
-
 if __name__ == '__main__':
 	main();
-
-#SlkfSdkBjbm :: 5
