@@ -21,7 +21,7 @@ def read_and_decrypt(path, key):
 def main():
 	key = input('[ KEY ] >>> ');
 	path = input('[ FILE ] >>> ');
-	read_and_decrypt('../TEST/lorem.txt.crypt', key);
+	read_and_decrypt(path, key);
 
 if __name__ == '__main__':
 	main();
